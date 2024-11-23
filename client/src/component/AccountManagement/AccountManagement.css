@@ -1,0 +1,83 @@
+.account-management-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border: black 5px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .account-management-container h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .account-management-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .account-management-container li {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-management-container li p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .account-management-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account-management-container form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .account-management-container form input,
+  .account-management-container form select {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .account-management-container form input:focus,
+  .account-management-container form select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .account-management-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .account-management-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .account-management-container .cancel-button {
+    background-color: #dc3545;
+  }
+  
+  .account-management-container .cancel-button:hover {
+    background-color: #c82333;
+  }
+  

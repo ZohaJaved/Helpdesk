@@ -1,0 +1,90 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: azure;
+}
+
+.form {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    /* margin-bottom: 10px; */
+    font-weight: bold;
+}
+
+.input {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.accountPrompt {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.accountPrompt a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.accountPrompt a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+
+.main-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.main-container p {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats .stat-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(154, 150, 150, 0.1);
+    margin-top: 20px;
+    width: 200px;
+    /* Adjust width as necessary */
+}
+
+.stats h2 {
+    color: #121315;
+    font-size: 1.3em;
+    margin: 0;
+}
